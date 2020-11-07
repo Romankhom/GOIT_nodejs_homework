@@ -1,9 +1,11 @@
 const contacts =  require("./contacts");
 
+
 class ContactController {
   async getContacts(req, res, next) {
     try {
       const result = await contacts.listContacts();
+
       res.status(200).send(result);
     } catch (error) {
       next(error);
