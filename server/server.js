@@ -27,7 +27,7 @@ const createServer = async () => {
     app.use(morgan('tiny'));
 
     app.use(express.json());
-
+    
     app.use('/contact', contactsRouter);
     app.use('/auth', authRouter);
     app.use('/users', usersRouter);
