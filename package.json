@@ -1,0 +1,27 @@
+{
+  "name": "goit-nodejs_homework",
+  "version": "0.0.1",
+  "description": "hw1 nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romankhom/GOIT_nodejs_nomework.git"
+  },
+  "author": "Romankhom <homenko.r.v@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romankhom/GOIT_nodejs_nomework/issues"
+  },
+  "homepage": "https://github.com/Romankhom/GOIT_nodejs_nomework#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "yargs": "^16.0.3"
+  }
+}
