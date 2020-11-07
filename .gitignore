@@ -1,4 +1,3 @@
-
 # production
 /build
 
@@ -21,14 +20,11 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
-*.lcov
-
 
 # nyc test coverage
 .nyc_output
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-
 .grunt
 
 # Bower dependency directory (https://bower.io/)
@@ -38,7 +34,6 @@ bower_components
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-
 build/Release
 
 # Dependency directories
@@ -53,12 +48,6 @@ typings/
 
 # Optional eslint cache
 .eslintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
 
 # Optional REPL history
 .node_repl_history
@@ -78,4 +67,3 @@ typings/
 .env.development.local
 .env.test.local
 .env.production.local
-
